@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/whatWeChose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What we chose"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="rockButton"
+        android:text="Rock"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <Button
+        android:id="@+id/paperButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="paperButton"
+        android:text="Paper"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/scissorsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scissors"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/whatTheyChose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What they chose"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/winLoseView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Win Lose View"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
